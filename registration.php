@@ -42,6 +42,12 @@
         }
     } else {
 ?>
+    <img style="position: fixed;
+        top: 10px;
+        left: 10px;
+        width: 100px;
+        height: auto;" 
+        class="logo" src="images/main-logo.png" alt="logo">
     <form class="form" action="" method="post">
         <h1 class="login-title">Registration</h1>
         <input type="text" class="login-input" name="firstName" placeholder="First Name" required />
